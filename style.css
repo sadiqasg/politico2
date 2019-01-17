@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: absolute;
+    width: 100vw;
+    border-bottom: 1px solid grey;
+    background: #fff;
+}
+nav * {
+    display: inline;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+}
+.float-left { float: left; }
+.float-right { float: right; }
+nav .nav-list li {
+    margin: 0 -2px;
+}
+main {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: #fff;
+    padding: 50px 30px 30px 30px;
+    box-shadow: #555 0 0 2px;
+}
+.card-lg {
+    position: relative;
+    top: 50px;
+    width: 30%;
+}
+#loginForm input {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 5px;
+}
+#submitBtn {
+    height: 30px !important;
+    width: 80% !important;
+    margin-left: 10%;
+    cursor: pointer;
+    background: linear-gradient(to left, #005500, #fff, #00ff00);
+}
+@media screen and (max-width: 800px) {
+    .card {
+        width: 50vw;
+    }
+}
