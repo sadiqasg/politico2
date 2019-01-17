@@ -6,10 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Politico</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            background: linear-gradient(to bottom left, #32b163, #fff, #25c568);
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+    </style>
 </head>
 <body>
-    Hello politico
-
+    <header>
+        <nav>
+            <div class="float-left">
+                <a href="#">Politico</a>
+            </div>
+            <div class="float-right">
+                <ul class="nav-list">
+                    <li><a href=".">About</a></li>
+                    <li><a href=".">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="card card-lg">
+            <div></div>
+            <div>
+                <form id="loginForm">
+                    <label>Email</label><br/>
+                    <input type="email" name="email" placeholder="  Enter email"><br/>
+                    <label>Password</label><br/>
+                    <input type="password" name="password" placeholder="Enter password"><br/>
+                    <input type="submit" value="LOGIN" id="submitBtn">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
 
     <script src="./script.js"></script>
 </body>
